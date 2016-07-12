@@ -1,0 +1,22 @@
+  <section class="todoapp">
+    <header class="header">
+      <h1>TODO List</h1>
+      <input class="new-todo" placeholder="Make a New List!"">
+    </header>
+    <section class="main" style="display: block;">
+      <input class="toggle-all" type="checkbox">
+      <label for="toggle-all">Mark all as complete</label>
+      <ul class="todo-list">
+        <% @lists.each do |list| %>
+          <li>
+            <div class="view">
+              <label><%= link_to list.name, "#" %></label>
+            </div>  
+          </li>
+         <% end %> 
+      </ul>
+    </section>
+    <footer class="footer" style="display: none;">
+
+    </footer>
+  </section>
