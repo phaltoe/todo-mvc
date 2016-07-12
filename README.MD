@@ -1,28 +1,22 @@
-== README
+Step 1: Integrate Basic Theme to Asset Pipeline
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[X] / - And see a stubbed out, non-dynamic, page with the theme.
 
-Things you may want to cover:
+Step 2: Allow people to CRUD lists.
 
-* Ruby version
+[ ] ListsController #index
 
-* System dependencies
+see all their lists
+doubling as my #new action in that it is presenting the person with a form to create a new list / - Index all the lists...
+create a list
+show a list
 
-* Configuration
+i need a model
 
-* Database creation
+i need a controller
+i should a generate resource
+Does it impact the DB? Does it impact my URLS? '/lists/1' #
 
-* Database initialization
+Step 3: Add Items to a List
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Step Whatever: Fix Down Arrow on Make a List Form
