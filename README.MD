@@ -17,6 +17,6 @@ i need a controller
 i should a generate resource
 Does it impact the DB? Does it impact my URLS? '/lists/1' #
 
-Step 3: Add Items to a List
+Step 3: Add Items to a List!
 
 Step Whatever: Fix Down Arrow on Make a List Form
