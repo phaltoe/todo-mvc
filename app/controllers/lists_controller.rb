@@ -7,10 +7,10 @@ class ListsController < ApplicationController
 
   def create
     @list = List.new
-    @list.name = params[:name]
+    @list.name = params[:list][:name]
     if @list.valid?
       @list.save
-      redirect_to list_path(@list.id)
+      redirect_to list_path(@list)
     else
       render :index
     end

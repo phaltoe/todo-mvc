@@ -2,12 +2,7 @@
   <header class="header">
     <h1>TODO List</h1>
     <%= form_for(@list) do |f| %>
-    <ul class="todo-list">
-        <li>
-          <div class="view">
-            <label><%= f.text_field :name %></label>
-          </div>  
-        </li>
+      <%= f.text_field :name, :class => "new-todo" %>
     <% end %>
   </header>
   <section class="main" style="display: block">
