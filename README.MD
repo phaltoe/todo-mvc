@@ -23,6 +23,9 @@ Step 4: Adding validations
  - Lists have a name
  - Items have a description
 
-Step 5: Add state(complete, incomplete) to Items in a List
+Step 5: Add state to Items in a List
+- (complete, incomplete)
+
+Step 6: Deleting Items from a List
 
 Step Whatever: Fix Down Arrow on Make a List Form
