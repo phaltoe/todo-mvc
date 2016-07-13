@@ -7,7 +7,7 @@ class ListsController < ApplicationController
 
   def create
     @list = List.new(list_params)
-    
+
     if @list.valid?
       @list.save
       redirect_to list_path(@list)
@@ -16,8 +16,10 @@ class ListsController < ApplicationController
     end
   end
 
-    def show 
+
+  def show 
     @list = List.find(params[:id])
+    @item = @list.items.build
   end
 
   private
