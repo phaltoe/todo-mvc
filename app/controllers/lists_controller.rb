@@ -12,6 +12,7 @@ class ListsController < ApplicationController
       @list.save
       redirect_to list_path(@list)
     else
+      @lists = List.all
       render :index
     end
   end
