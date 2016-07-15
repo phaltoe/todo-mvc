@@ -24,7 +24,7 @@ Step 4: Adding validations
  - Items have a description
 
 Step 5: Add state to Items in a List
-- (complete, incomplete)
+- (complete, incomplete - interactive icons)
 
 Step 6: Deleting Items from a List
 
