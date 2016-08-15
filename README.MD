@@ -29,3 +29,5 @@ Step 5: Add state to Items in a List
 Step 6: Deleting Items from a List
 
 Step Whatever: Fix Down Arrow on Make a List Form
+
+Ste 7 - Build Authentication

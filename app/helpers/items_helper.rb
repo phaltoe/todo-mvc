@@ -14,4 +14,8 @@ module ItemsHelper
       f.check_box :status, :class => "toggle", :checked => item.complete? 
     end 
   end
+
+  def form_for_item_delete(item)
+    button_to "x", list_item_path(item.list, item), :method => "delete", :class => "destroy"
+  end
 end
