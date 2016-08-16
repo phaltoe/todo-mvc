@@ -12,6 +12,7 @@ class UsersController < ApplicationController
 
     #User model validations for =>  if !@user.nil? && !User.exists?(user_params) 
     if @user.save
+      session[:user_id] = @user.id
       redirect_to root_path
     else
       render 'users/new'
@@ -21,6 +22,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:email)
+    params.require(:user).permit(:email, :password, :password_confirmation)
   end
 end
